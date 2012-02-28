@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
-	id		= "com.phonegap.getting.started"
+	id		= "com.kerkin.imonmyway"
 	version 	= "1.0.0">
 
-	<name>PhoneGap: Getting Started</name>
+	<name>I'm On My Way</name>
 
 	<description>
-		A template for getting started with PhoneGap development and build.phonegap.com
+		Daily notification of pickups
 	</description>
 
-	<author href="http://alunny.github.com"
-		email="andrew.lunny@nitobi.com">
-		Andrew Lunny
+	<author href="http://github.com/nkerkin"
+		email="nkerkin@gmail.com">
+		Neil Kerkin
 	</author>
 
 	<gap:platforms>
@@ -26,6 +26,8 @@
 
 	<feature name="http://api.phonegap.com/1.0/geolocation"/>
 	<feature name="http://api.phonegap.com/1.0/network"/>
+	<feature name="http://api.phonegap.com/1.0/contacts"/>
+	
 
 	<!-- sample preference specification -->
 	<!-- <preference name="autorotate" value="false" readonly="true"/> -->
